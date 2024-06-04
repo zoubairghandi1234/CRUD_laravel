@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.header{
+    background-color: rgb(0, 0, 126);
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.header h2{
+    color: beige;
+}
+.link{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    display: flex;
+}
+.link a{
+    margin-right: 15px;
+}
+
+
+.title{
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(0, 44, 29);
+}
+table{
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0px 5px;
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1pt solid black;
+}
+
+table th{
+    text-align: start;
+    padding: 12px 0px;
+    
+    
+}
+.thead{
+    background-color: blanchedalmond;
+}
+table td{
+    text-align: start;
+    padding: 12px 2px;
+    
+}
+table button{
+    text-align: start;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    transition: all 0.5s;
+}
+table button:hover{
+    background-color: rgb(0, 0, 126);
+    border-radius: 12px;
+    border: none ;
+    color: #ffffff;
+}
+
+
+.footer { 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10;
+    background-color: rgb(0, 0, 126);
+    width: 100%;
+    color: #ffffff;
+    font-size: 15px;
+    height: 30px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    justify-content: center;
+
+
+}
